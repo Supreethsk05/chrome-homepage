@@ -1,0 +1,177 @@
+body {
+
+	font-family: sans-serif;
+    
+	
+    background: linear-gradient(to bottom, #313149, #141414 ,#000);
+	color: #fff;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    animation: flow 8s ease infinite;
+
+}
+.header {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+    font-size: px;
+    background: linear-gradient(to right, rgb(189, 209, 244), rgb(4, 98, 175));
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: flow 1s linear infinite;
+  
+}
+
+.container {
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 25px;
+	margin: 0 0 20px;
+}
+
+form {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border: none;
+	background-color: #333;
+	color: #fff;
+	flex-grow: 1;
+}
+
+button[type="submit"] {
+	padding: 10px;
+	background-color: #4285f4;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+.links a {
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	max-width: 100%;
+	max-height: 70px;
+}
+
+.links a:hover {
+	background-color: #4285f4;
+}
+
+.links img {
+	max-width: 80px;
+	max-height: 50px;
+	margin: 5px 10px;
+    transition: all 0.3s ease-in-out;
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+
+}
+
+
+
+
+  @keyframes flow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+		background-position: 100% 50%;
+	}
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+
+  .links1 a {
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	max-width: 100%;
+	max-height: 70px;
+}
+
+.links1 a:hover {
+	background-color: #4285f4;
+}
+
+.links1 img {
+	max-width: 60px;
+	max-height: 35px;
+	margin: 5px 10px;
+}
+.time-container {
+	
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-size: 24px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.clock {
+    display: flex;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.chem-element {
+    display: inline-block;
+    background-color: #58cdd1;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.separator {
+    color: #3f3f3f;
+}
+#speed-container {
+	margin-bottom: 20px;
+  }
+  
+  #speed-result {
+	font-size: 48px;
+  }
+  
+  button {
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #0099ff;
+	border: none;
+	color: white;
+	border-radius: 5px;
+  }
